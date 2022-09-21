@@ -1,0 +1,140 @@
+/* . represents class and # represents id */
+.header{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+/* to put space */
+border-bottom: 2px solid red;
+padding-bottom: 20px;
+}
+
+.header .logo img{
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header .logo-description{
+    margin: auto 0;
+    /* places in the middle vertically */
+    font-size: 45px;
+}
+
+.header .social-links{
+    padding: 0px 50px 0px 0px;
+    /* padding: toppadding rightpadding bottompadding leftpadding */
+    margin: auto 0;
+}
+
+.header .social-links ul{
+    display: flex;
+    /* To put in inline or float elements horizontally */
+    
+    list-style-type: none; 
+    /* to remove bullet points in ul  */
+    margin-bottom: 0;
+}
+
+.header .social-links ul li i{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header .social-links ul li .fa-facebook{
+    color: #4267B2;
+}
+
+.header .social-links ul li .fa-twitter{
+    color: #00acee;
+}
+
+.nav-bar{
+    background-color: #03A44D;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    /* To place the content inside navbar vertically centered */
+    justify-content: center;
+    border-bottom: 2px solid red;
+
+}
+
+.nav-bar nav ul{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+}
+
+.nav-bar nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-bar nav ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* When li is hovered with mouse it changes color */
+.footer .company ul{
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer .product ul{
+    padding-top: 20px;
+    list-style-type:  none;
+    padding-left: 0px;
+}
+
+.footer .information ul{
+    padding-top: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #03A44D;
+    padding: 30px 0px;
+}
+
+.absolute-footer{
+    background-color: #333333;
+}
+
+.absolute-footer .absolute-footer-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.content{
+    margin: 20px 0px;
+}
+
+.cake-img{
+    overflow: hidden;
+    height: 200px;
+    padding: 20px;
+    object-fit: contain;
+}
+
+.cake-title{
+    padding-left: 20px;
+}
+
+.cake-img img{
+    width: 100%;
+    object-fit: contain;
+}
+
+

@@ -1,0 +1,22 @@
+
+/* CSS media query. Max-width is viewport of the screen size. */
+@media (max-width: 769px){
+    .header{
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-description{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar{
+        height: auto;
+    }
+    .nav-bar nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
